@@ -33,7 +33,7 @@ function cmp_admin_menu() {
 }
 add_action('admin_menu', 'cmp_admin_menu');
 
-// Zawartość strony administracyjnej
+
 function cmp_admin_page_callback() {
     if (!current_user_can('manage_options')) {
         wp_die(esc_html__('Nie masz uprawnień, aby uzyskać dostęp do tej strony.'));
