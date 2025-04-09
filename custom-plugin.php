@@ -1,6 +1,10 @@
 <?php
-
-
+/*
+Plugin Name: Custom Message Plugin
+Description: zadanie
+Version: 1.0
+Author: Patryk
+*/
 
 function cmp_get_message() {
     $message = get_option('cmp_custom_message');
